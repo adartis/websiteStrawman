@@ -1,0 +1,102 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Andy and George's Consulting Company</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Link to the external JavaScript file, loaded after HTML parsing -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navigation banner: appears on every page, fixed at top -->
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Our Services</a>
+      <a href="who-we-are.html">Who We Are</a>
+      <a href="publications.html">Publications</a>
+      <a href="our-people.html">Our People</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero section: background image occupies full viewport minus header -->
+  <section id="hero">
+    <!-- Quote overlay that will fade out as the user scrolls -->
+    <div class="quote">"Text like a mission statement with some pazzazz. We can brainstorm something. I am sure we can come up with something really inspirational, but for now I am typing whatever so we have something to work with when it comes ot imagining the end product."</div>
+  </section>
+
+  <!-- Main content: three sections with subtitle, text, and image grid -->
+  <main>
+    <!-- Section 1 - reflective of the services page -->
+    <section class="service">
+        <!-- intro sub-section -->
+      <h2>How we can help you.</h2>
+      <p>With decades of experience from a diverse set of associates, we are well placd to help you realise your strategic vision for your organisation.</p>
+    </section>
+<!-- image grid -->
+ 
+ <section class="service">
+      <!-- Picture for service -->
+      <img src="/images/image1.jpg" alt="Service 1" />
+      <!-- Text block with title, subtitle, paragraph -->
+      <div class="service-text">
+        <h2>Strategy</h2>
+        <h3>Helping you set a vision for the future.</h3>
+        <p>We help you uncover the issues which need to be addressed and identify the best ways to fix them. With our meticulous but plain-speaking approach, we will support you throughout your organisation's mission - we help you keep yoru strategy up to date and relevant so that citizens ultimately benefit from your leadership.</p>
+      </div>
+    </section>
+    <section class="service">
+      <img src="/images/image9.jpg" alt="Service 2" />
+      <div class="service-text">
+        <h2>Policy</h2>
+        <h3>Researching, presenting and designing policy interventions</h3>
+        <p>Policywork is hard. We recognise the challenges face dby leaders in designing comprehensive solutions, often with limited resources. We will support your organisation by using best in class tools and techniques to distil lessons and solutions.</p>
+      </div>
+    </section>
+    <section class="service">
+      <img src="/images/image3.jpg" alt="Service 3" />
+      <div class="service-text">
+        <h2>Implementation</h2>
+        <h3>Getting the job done (and keeping it done)</h3>
+        <p>We never doubt that the work isn't completed until people feel the outcomes of your decisions. We will help you bring your ideas to life. Drawing on some of the best minds in public delivery, we will ensure that citizens feel lasting benefits.</p>
+      </div>
+    </section>
+</section>
+    <!-- Section 2: our mission -->
+    <section>
+      <h2>Our mission.</h2>
+      <p>Our mission is to support public sector organisations in addressing complex challenges through evidence-based strategy, collaborative problem-solving, and practical delivery support. We work to improve outcomes for citizens by helping governments and public bodies design effective policies, enhance organisational performance, and deliver lasting impact..</p>
+
+    </section>
+    <!-- Section 3: similar structure -->
+    <section>
+      <h2>Original research.</h2>
+      <p>Our insights are free to use, feel free to explore some of our recent reports.</p>
+   <div class="waffle">
+     <div class="waffle-item"><a href="#article4"><img src="/images/image1.jpg" alt="Pub 1" /><div class="overlay">Lorem ipsum</div></a></div>
+     <div class="waffle-item"><a href="#article5"><img src="images/image7.jpg" alt="Pub 2" /><div class="overlay">Lorem ipsum</div></a></div>
+     <div class="waffle-item"><a href="#article6"><img src="images/image3.jpg" alt="Pub 3" /><div class="overlay">Lorem ipsum</div></a></div>
+   </div>
+    </section>
+  </main>
+
+<!-- Call to action: contact us -->
+ <h2>Contact Us to find out more.</h2>
+    <!-- Contact form: fields for name, email, subject, message -->
+    <form>
+      <label>Name:<input type="text" name="name" required /></label>
+      <label>Email:<input type="email" name="email" required /></label>
+      <label>Subject:<input type="text" name="subject" /></label>
+      <label>Message:<textarea name="message" rows="5" required></textarea></label>
+      <button type="submit">Send Message</button>
+    </form>
+
+  <!-- Footer: company registration and copyright -->
+  <footer>
+    <p>Andy and George's Consulting Company Ltd | Registration No. 01234567 | &copy; 2025 Consulting Company</p>
+  </footer>
+
